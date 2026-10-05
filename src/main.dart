@@ -1,9 +1,9 @@
 import 'dart:math';
 
-import 'Cotxe.dart';
-import 'Patinet.dart';
-import 'User.dart';
-import 'Vehicle.dart';
+import 'vehicles/Cotxe.dart';
+import 'vehicles/Patinet.dart';
+import 'user/User.dart';
+import 'vehicles/Vehicle.dart';
 
 final Random RAND = new Random();
 
