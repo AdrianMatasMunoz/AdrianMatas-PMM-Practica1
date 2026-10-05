@@ -12,6 +12,6 @@ class Patinet extends Vehicle {
 
   @override
   String toString() {
-    return "Patinet $id ($bateriaPercentatge% de bateria) | ${enUs ? "En us" : "Lliure"} | Limit: $velocitatMaxima km/h |$preuPerMinut€/min";
+    return "Patinet $id ($bateriaPercentatge% de bateria) | ${enUs ? "En us" : "Lliure"} | Limit: $velocitatMaxima km/h | $preuPerMinut€/min";
   }
 }
